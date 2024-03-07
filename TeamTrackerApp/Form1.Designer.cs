@@ -28,13 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.ucSignUp1 = new TeamTrackerApp.UCSignUp();
             this.SuspendLayout();
+            // 
+            // ucSignUp1
+            // 
+            this.ucSignUp1.BackColor = System.Drawing.SystemColors.Info;
+            this.ucSignUp1.Location = new System.Drawing.Point(185, 128);
+            this.ucSignUp1.Name = "ucSignUp1";
+            this.ucSignUp1.Size = new System.Drawing.Size(500, 300);
+            this.ucSignUp1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(790, 485);
+            this.Controls.Add(this.ucSignUp1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
@@ -43,6 +53,8 @@
         }
 
         #endregion
+
+        private UCSignUp ucSignUp1;
     }
 }
 
