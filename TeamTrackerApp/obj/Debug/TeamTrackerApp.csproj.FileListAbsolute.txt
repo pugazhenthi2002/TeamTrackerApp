@@ -7,3 +7,5 @@ C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamT
 C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.csproj.CoreCompileInputs.cache
 C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.exe
 C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.pdb
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.Form1.resources
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.LoginPage.resources
