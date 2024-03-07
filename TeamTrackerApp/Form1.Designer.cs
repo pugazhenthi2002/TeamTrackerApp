@@ -28,15 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.welcomePage1 = new TeamTrackerApp.WelcomePage();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.SuspendLayout();
             // 
-            // welcomePage1
+            // tableLayoutPanel1
             // 
-            this.welcomePage1.Location = new System.Drawing.Point(90, 59);
-            this.welcomePage1.Name = "welcomePage1";
-            this.welcomePage1.Size = new System.Drawing.Size(619, 363);
-            this.welcomePage1.TabIndex = 0;
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(97, 133);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(451, 219);
+            this.tableLayoutPanel1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -44,7 +49,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(790, 485);
-            this.Controls.Add(this.welcomePage1);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
@@ -54,7 +59,7 @@
 
         #endregion
 
-        private WelcomePage welcomePage1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }
 

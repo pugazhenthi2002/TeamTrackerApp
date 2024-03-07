@@ -44,7 +44,7 @@
             this.loginPage1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.loginPage1.Location = new System.Drawing.Point(0, 0);
             this.loginPage1.Name = "loginPage1";
-            this.loginPage1.Size = new System.Drawing.Size(619, 363);
+            this.loginPage1.Size = new System.Drawing.Size(752, 397);
             this.loginPage1.TabIndex = 0;
             this.loginPage1.NewUserClick += new TeamTrackerApp.LoginPage.LoginHandler(this.OnPageSwitch);
             // 
@@ -55,7 +55,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(207)))));
             this.Controls.Add(this.loginPage1);
             this.Name = "WelcomePage";
-            this.Size = new System.Drawing.Size(619, 363);
+            this.Size = new System.Drawing.Size(752, 397);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.WelcomePagePaint);
             this.ResumeLayout(false);
 

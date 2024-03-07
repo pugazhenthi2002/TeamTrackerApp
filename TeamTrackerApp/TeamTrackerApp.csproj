@@ -101,5 +101,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\icons8-male-user-50.png" />
+    <Content Include="Image\Login Template.png" />
+    <Content Include="Image\Password.png" />
+    <Content Include="Image\User.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
