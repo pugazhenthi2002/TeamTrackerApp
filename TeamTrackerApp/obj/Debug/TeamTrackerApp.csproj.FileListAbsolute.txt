@@ -1,0 +1,9 @@
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\bin\Debug\TeamTrackerApp.exe.config
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\bin\Debug\TeamTrackerApp.exe
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\bin\Debug\TeamTrackerApp.pdb
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.csprojAssemblyReference.cache
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.Properties.Resources.resources
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.csproj.GenerateResource.cache
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.csproj.CoreCompileInputs.cache
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.exe
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.pdb
