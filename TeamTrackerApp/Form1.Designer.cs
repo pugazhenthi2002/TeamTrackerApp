@@ -34,9 +34,9 @@
             // ucSignUp1
             // 
             this.ucSignUp1.BackColor = System.Drawing.SystemColors.Info;
-            this.ucSignUp1.Location = new System.Drawing.Point(185, 128);
+            this.ucSignUp1.Location = new System.Drawing.Point(69, 74);
             this.ucSignUp1.Name = "ucSignUp1";
-            this.ucSignUp1.Size = new System.Drawing.Size(500, 300);
+            this.ucSignUp1.Size = new System.Drawing.Size(584, 330);
             this.ucSignUp1.TabIndex = 0;
             // 
             // Form1
