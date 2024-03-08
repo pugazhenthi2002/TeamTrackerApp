@@ -28,13 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.welcomePage1 = new TeamTrackerApp.WelcomePage();
             this.SuspendLayout();
+            // 
+            // welcomePage1
+            // 
+            this.welcomePage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(207)))));
+            this.welcomePage1.Location = new System.Drawing.Point(39, 38);
+            this.welcomePage1.Name = "welcomePage1";
+            this.welcomePage1.Size = new System.Drawing.Size(716, 371);
+            this.welcomePage1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(790, 485);
+            this.Controls.Add(this.welcomePage1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
@@ -43,6 +54,8 @@
         }
 
         #endregion
+
+        private WelcomePage welcomePage1;
     }
 }
 
