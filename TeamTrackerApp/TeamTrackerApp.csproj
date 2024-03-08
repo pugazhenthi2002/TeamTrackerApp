@@ -89,6 +89,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Welcome Page\SignUPPage.resx">
       <DependentUpon>SignUPPage.cs</DependentUpon>
@@ -112,7 +113,9 @@
   <ItemGroup>
     <Content Include="Image\icons8-male-user-50.png" />
     <Content Include="Image\Login Template.png" />
+    <None Include="Image\No Notification.png" />
     <Content Include="Image\Password.png" />
+    <None Include="Image\Received Notification.png" />
     <Content Include="Image\User.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
