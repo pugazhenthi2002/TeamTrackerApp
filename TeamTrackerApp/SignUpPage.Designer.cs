@@ -1,6 +1,6 @@
 ﻿namespace TeamTrackerApp
 {
-    partial class LoginPage
+    partial class SignUpPage
     {
         /// <summary> 
         /// Required designer variable.
@@ -30,12 +30,12 @@
         {
             this.SuspendLayout();
             // 
-            // LoginPage
+            // SignUpPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "LoginPage";
-            this.Size = new System.Drawing.Size(533, 376);
+            this.Name = "SignUpPage";
+            this.Size = new System.Drawing.Size(442, 314);
             this.ResumeLayout(false);
 
         }

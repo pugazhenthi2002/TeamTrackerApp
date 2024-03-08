@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TeamTrackerApp
 {
-    public partial class LoginPage : UserControl
+    public partial class SignUpPage : UserControl
     {
-        public LoginPage()
+        public SignUpPage()
         {
             InitializeComponent();
         }

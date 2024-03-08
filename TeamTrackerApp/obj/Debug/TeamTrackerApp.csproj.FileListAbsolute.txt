@@ -6,18 +6,8 @@ C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamT
 C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.csproj.CoreCompileInputs.cache
 C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.exe
 C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.pdb
-C:\Users\Illamugundhan\source\repos\Team Tracker\New folder\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.csprojAssemblyReference.cache
-C:\Users\Illamugundhan\source\repos\Team Tracker\New folder\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.exe
-C:\Users\Illamugundhan\source\repos\Team Tracker\New folder\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.pdb
-C:\Users\Illamugundhan\source\repos\Team Tracker\New folder\TeamTrackerApp\TeamTrackerApp\bin\Debug\TeamTrackerApp.exe.config
-C:\Users\Illamugundhan\source\repos\Team Tracker\New folder\TeamTrackerApp\TeamTrackerApp\bin\Debug\TeamTrackerApp.exe
-C:\Users\Illamugundhan\source\repos\Team Tracker\New folder\TeamTrackerApp\TeamTrackerApp\bin\Debug\TeamTrackerApp.pdb
-C:\Users\Illamugundhan\source\repos\Team Tracker\New folder\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.Form1.resources
-C:\Users\Illamugundhan\source\repos\Team Tracker\New folder\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.LoginPage.resources
-C:\Users\Illamugundhan\source\repos\Team Tracker\New folder\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.Properties.Resources.resources
-C:\Users\Illamugundhan\source\repos\Team Tracker\New folder\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.UCSignUp.resources
-C:\Users\Illamugundhan\source\repos\Team Tracker\New folder\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.csproj.GenerateResource.cache
-C:\Users\Illamugundhan\source\repos\Team Tracker\New folder\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.csproj.CoreCompileInputs.cache
 C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.Form1.resources
 C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.LoginPage.resources
-C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.UCSignUp.resources
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.WelcomePage.resources
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.Welcome_Page.SignUPPage.resources
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.csprojAssemblyReference.cache
