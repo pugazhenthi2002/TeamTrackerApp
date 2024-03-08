@@ -10,3 +10,4 @@ C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamT
 C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.LoginPage.resources
 C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.WelcomePage.resources
 C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.Welcome_Page.SignUPPage.resources
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.csprojAssemblyReference.cache
