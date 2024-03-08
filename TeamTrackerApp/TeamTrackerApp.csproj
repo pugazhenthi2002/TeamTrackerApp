@@ -55,25 +55,30 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="GraphicsExtension.cs" />
-    <Compile Include="LoginPage.cs">
+    <Compile Include="Welcome Page\LoginPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="LoginPage.Designer.cs">
+    <Compile Include="Welcome Page\LoginPage.Designer.cs">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WelcomePage.cs">
+    <Compile Include="Welcome Page\SignUPPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="WelcomePage.Designer.cs">
+    <Compile Include="Welcome Page\SignUPPage.Designer.cs">
+      <DependentUpon>SignUPPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome Page\WelcomePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Welcome Page\WelcomePage.Designer.cs">
       <DependentUpon>WelcomePage.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginPage.resx">
+    <EmbeddedResource Include="Welcome Page\LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -85,7 +90,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="WelcomePage.resx">
+    <EmbeddedResource Include="Welcome Page\SignUPPage.resx">
+      <DependentUpon>SignUPPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome Page\WelcomePage.resx">
       <DependentUpon>WelcomePage.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">

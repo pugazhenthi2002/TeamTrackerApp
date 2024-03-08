@@ -35,13 +35,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.username = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.usernameTextBox = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.PasswordTextBox = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.LoginSubmit = new TeamTrackerApp.RippleButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.rippleButton1 = new TeamTrackerApp.RippleButton();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.username.SuspendLayout();
@@ -76,7 +76,7 @@
             this.tableLayoutPanel2.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.username, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel4, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.rippleButton1, 0, 4);
+            this.tableLayoutPanel2.Controls.Add(this.LoginSubmit, 0, 4);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(293, 0);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
@@ -100,7 +100,7 @@
             this.newUserLabel.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
             this.newUserLabel.Size = new System.Drawing.Size(288, 78);
             this.newUserLabel.TabIndex = 3;
-            this.newUserLabel.Text = "New User";
+            this.newUserLabel.Text = "Don\'t Have an Account? New User";
             this.newUserLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.newUserLabel.Click += new System.EventHandler(this.newUserLabelClicked);
             // 
@@ -123,7 +123,7 @@
             this.username.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.username.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80F));
             this.username.Controls.Add(this.pictureBox2, 0, 0);
-            this.username.Controls.Add(this.textBox1, 1, 0);
+            this.username.Controls.Add(this.usernameTextBox, 1, 0);
             this.username.Dock = System.Windows.Forms.DockStyle.Fill;
             this.username.Location = new System.Drawing.Point(3, 81);
             this.username.Name = "username";
@@ -131,6 +131,7 @@
             this.username.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.username.Size = new System.Drawing.Size(288, 72);
             this.username.TabIndex = 1;
+            this.username.Paint += new System.Windows.Forms.PaintEventHandler(this.usernamePanelPaint);
             // 
             // pictureBox2
             // 
@@ -144,23 +145,28 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // textBox1
+            // usernameTextBox
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(207)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(60, 3);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(225, 66);
-            this.textBox1.TabIndex = 1;
+            this.usernameTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(207)))));
+            this.usernameTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.usernameTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.usernameTextBox.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usernameTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(96)))), ((int)(((byte)(176)))));
+            this.usernameTextBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.usernameTextBox.Location = new System.Drawing.Point(60, 25);
+            this.usernameTextBox.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
+            this.usernameTextBox.Multiline = true;
+            this.usernameTextBox.Name = "usernameTextBox";
+            this.usernameTextBox.Size = new System.Drawing.Size(225, 44);
+            this.usernameTextBox.TabIndex = 1;
+            this.usernameTextBox.Text = "Username";
             // 
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.ColumnCount = 2;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80F));
-            this.tableLayoutPanel4.Controls.Add(this.textBox2, 1, 0);
+            this.tableLayoutPanel4.Controls.Add(this.PasswordTextBox, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.pictureBox3, 0, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 159);
@@ -169,17 +175,22 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(288, 72);
             this.tableLayoutPanel4.TabIndex = 2;
+            this.tableLayoutPanel4.Paint += new System.Windows.Forms.PaintEventHandler(this.PasswordPanelPaint);
             // 
-            // textBox2
+            // PasswordTextBox
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(207)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox2.Location = new System.Drawing.Point(60, 3);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(225, 66);
-            this.textBox2.TabIndex = 2;
+            this.PasswordTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(207)))));
+            this.PasswordTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.PasswordTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PasswordTextBox.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswordTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(96)))), ((int)(((byte)(176)))));
+            this.PasswordTextBox.Location = new System.Drawing.Point(60, 25);
+            this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
+            this.PasswordTextBox.Multiline = true;
+            this.PasswordTextBox.Name = "PasswordTextBox";
+            this.PasswordTextBox.Size = new System.Drawing.Size(225, 44);
+            this.PasswordTextBox.TabIndex = 2;
+            this.PasswordTextBox.Text = "Password";
             // 
             // pictureBox3
             // 
@@ -192,6 +203,23 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
+            // 
+            // LoginSubmit
+            // 
+            this.LoginSubmit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(96)))), ((int)(((byte)(176)))));
+            this.LoginSubmit.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LoginSubmit.FlatAppearance.BorderSize = 0;
+            this.LoginSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LoginSubmit.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginSubmit.ForeColor = System.Drawing.Color.White;
+            this.LoginSubmit.Location = new System.Drawing.Point(25, 322);
+            this.LoginSubmit.Margin = new System.Windows.Forms.Padding(25, 10, 25, 10);
+            this.LoginSubmit.Name = "LoginSubmit";
+            this.LoginSubmit.Size = new System.Drawing.Size(244, 60);
+            this.LoginSubmit.TabIndex = 4;
+            this.LoginSubmit.Text = "Sign In";
+            this.LoginSubmit.UseVisualStyleBackColor = false;
+            this.LoginSubmit.Click += new System.EventHandler(this.OnLoggedIn);
             // 
             // panel1
             // 
@@ -215,22 +243,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // rippleButton1
-            // 
-            this.rippleButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(96)))), ((int)(((byte)(176)))));
-            this.rippleButton1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rippleButton1.FlatAppearance.BorderSize = 0;
-            this.rippleButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rippleButton1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rippleButton1.ForeColor = System.Drawing.Color.White;
-            this.rippleButton1.Location = new System.Drawing.Point(25, 322);
-            this.rippleButton1.Margin = new System.Windows.Forms.Padding(25, 10, 25, 10);
-            this.rippleButton1.Name = "rippleButton1";
-            this.rippleButton1.Size = new System.Drawing.Size(244, 60);
-            this.rippleButton1.TabIndex = 4;
-            this.rippleButton1.Text = "Sign In";
-            this.rippleButton1.UseVisualStyleBackColor = false;
             // 
             // LoginPage
             // 
@@ -264,10 +276,10 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label newUserLabel;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private RippleButton rippleButton1;
+        private RippleButton LoginSubmit;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox usernameTextBox;
+        private System.Windows.Forms.TextBox PasswordTextBox;
         private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

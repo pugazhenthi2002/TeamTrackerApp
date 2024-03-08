@@ -16,21 +16,22 @@ namespace TeamTrackerApp
         {
             InitializeComponent();
             DoubleBuffered = true;
-        }
-
-        private void OnPageSwitch(Rectangle box, int x)
-        {
-            this.box = box;
-            movementX = x;
-            loginPage1.Visible = false;
-            pageSwitchTimer.Start();
+            loginPage.Visible = true;
+            signUPPage1.Visible = false;
         }
 
         private void pageSwitchTick(object sender, EventArgs e)
         {
             if(movementX<0)
             {
-
+                box = new Rectangle(box.X + movementX, box.Y, box.Width, box.Height);
+                if (box.X < 0)
+                {
+                    box = new Rectangle(0, box.Y, box.Width, box.Height);
+                    pageSwitchTimer.Stop();
+                    loginPage.Visible = true;
+                }
+                this.Invalidate();
             }
             else
             {
@@ -39,6 +40,7 @@ namespace TeamTrackerApp
                 {
                     box = new Rectangle(Width - box.Width, box.Y, box.Width, box.Height);
                     pageSwitchTimer.Stop();
+                    signUPPage1.Visible = true;
                 }
                 this.Invalidate();
             }
@@ -51,5 +53,22 @@ namespace TeamTrackerApp
         {
             e.Graphics.FillRectangle(new SolidBrush(Color.FromArgb(11, 96, 176)), box);
         }
+
+        private void OnSignUpPageSwitch(Rectangle box, int x)
+        {
+            this.box = box;
+            movementX = x;
+            loginPage.Visible = false;
+            pageSwitchTimer.Start();
+        }
+
+        private void OnLoginPageSwitch(Rectangle box, int x)
+        {
+            this.box = box;
+            movementX = x;
+            signUPPage1.Visible = false;
+            pageSwitchTimer.Start();
+        }
+
     }
 }

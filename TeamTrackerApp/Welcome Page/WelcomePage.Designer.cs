@@ -30,7 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             this.pageSwitchTimer = new System.Windows.Forms.Timer(this.components);
-            this.loginPage1 = new TeamTrackerApp.LoginPage();
+            this.loginPage = new TeamTrackerApp.LoginPage();
+            this.signUPPage1 = new TeamTrackerApp.Welcome_Page.SignUPPage();
             this.SuspendLayout();
             // 
             // pageSwitchTimer
@@ -38,22 +39,32 @@
             this.pageSwitchTimer.Interval = 1;
             this.pageSwitchTimer.Tick += new System.EventHandler(this.pageSwitchTick);
             // 
-            // loginPage1
+            // loginPage
             // 
-            this.loginPage1.BackColor = System.Drawing.Color.Black;
-            this.loginPage1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.loginPage1.Location = new System.Drawing.Point(0, 0);
-            this.loginPage1.Name = "loginPage1";
-            this.loginPage1.Size = new System.Drawing.Size(752, 397);
-            this.loginPage1.TabIndex = 0;
-            this.loginPage1.NewUserClick += new TeamTrackerApp.LoginPage.LoginHandler(this.OnPageSwitch);
+            this.loginPage.BackColor = System.Drawing.Color.Black;
+            this.loginPage.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.loginPage.Location = new System.Drawing.Point(0, 0);
+            this.loginPage.Name = "loginPage";
+            this.loginPage.Size = new System.Drawing.Size(752, 397);
+            this.loginPage.TabIndex = 1;
+            this.loginPage.NewUserClick += new TeamTrackerApp.LoginPage.LoginHandler(this.OnSignUpPageSwitch);
+            // 
+            // signUPPage1
+            // 
+            this.signUPPage1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.signUPPage1.Location = new System.Drawing.Point(0, 0);
+            this.signUPPage1.Name = "signUPPage1";
+            this.signUPPage1.Size = new System.Drawing.Size(752, 397);
+            this.signUPPage1.TabIndex = 0;
+            this.signUPPage1.LoginClick += new TeamTrackerApp.Welcome_Page.SignUPPage.LoginHandler(this.OnLoginPageSwitch);
             // 
             // WelcomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(207)))));
-            this.Controls.Add(this.loginPage1);
+            this.Controls.Add(this.loginPage);
+            this.Controls.Add(this.signUPPage1);
             this.Name = "WelcomePage";
             this.Size = new System.Drawing.Size(752, 397);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.WelcomePagePaint);
@@ -62,8 +73,8 @@
         }
 
         #endregion
-
-        private LoginPage loginPage1;
         private System.Windows.Forms.Timer pageSwitchTimer;
+        private Welcome_Page.SignUPPage signUPPage1;
+        private LoginPage loginPage;
     }
 }
