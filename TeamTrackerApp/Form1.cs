@@ -16,9 +16,8 @@ namespace TeamTrackerApp
         public Form1()
         {
             InitializeComponent();
-            typeof(Panel).InvokeMember("DoubleBuffered", BindingFlags.SetProperty | BindingFlags.Instance | BindingFlags.NonPublic, null, HeaderPanel, new object[] { true });
-            typeof(PictureBox).InvokeMember("DoubleBuffered", BindingFlags.SetProperty | BindingFlags.Instance | BindingFlags.NonPublic, null, notificationPictureBox, new object[] { true });
-
+            //typeof(Panel).InvokeMember("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.SetProperty, null, panel21, new object[] { true });
+            typeof(Panel).InvokeMember("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.SetProperty, null, HeaderPanel, new object[] { true });
         }
 
         private void TeamTrackerFormLoad(object sender, EventArgs e)
