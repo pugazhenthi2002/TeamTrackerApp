@@ -55,34 +55,34 @@
             this.HeaderPanel = new System.Windows.Forms.Panel();
             this.panel21 = new System.Windows.Forms.Panel();
             this.panel26 = new System.Windows.Forms.Panel();
-            this.notificationPictureBox = new System.Windows.Forms.PictureBox();
             this.panel25 = new System.Windows.Forms.Panel();
             this.panel24 = new System.Windows.Forms.Panel();
-            this.settingsPictureBox = new System.Windows.Forms.PictureBox();
             this.panel23 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel22 = new System.Windows.Forms.Panel();
-            this.menuPictureBox = new System.Windows.Forms.PictureBox();
             this.mainContentPanel = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.colloboratePage1 = new TeamTrackerApp.TabPages.Colloborate.ColloboratePage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.SubMenuPanelTimer = new System.Windows.Forms.Timer(this.components);
+            this.notificationPictureBox = new System.Windows.Forms.PictureBox();
+            this.settingsPictureBox = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.menuPictureBox = new System.Windows.Forms.PictureBox();
+            this.colloboratePage1 = new TeamTrackerApp.TabPages.Colloborate.ColloboratePage();
             this.tableLayoutPanel1.SuspendLayout();
             this.SubMenuTabelPanel.SuspendLayout();
             this.HeaderPanel.SuspendLayout();
             this.panel26.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.notificationPictureBox)).BeginInit();
             this.panel24.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.settingsPictureBox)).BeginInit();
             this.panel23.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel22.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.menuPictureBox)).BeginInit();
             this.mainContentPanel.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.notificationPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.menuPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -365,19 +365,6 @@
             this.panel26.Size = new System.Drawing.Size(48, 40);
             this.panel26.TabIndex = 4;
             // 
-            // notificationPictureBox
-            // 
-            this.notificationPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.notificationPictureBox.Location = new System.Drawing.Point(0, 0);
-            this.notificationPictureBox.Name = "notificationPictureBox";
-            this.notificationPictureBox.Size = new System.Drawing.Size(48, 40);
-            this.notificationPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.notificationPictureBox.TabIndex = 0;
-            this.notificationPictureBox.TabStop = false;
-            this.notificationPictureBox.Click += new System.EventHandler(this.OnNotificationClick);
-            this.notificationPictureBox.MouseEnter += new System.EventHandler(this.OnMouseEnter);
-            this.notificationPictureBox.MouseLeave += new System.EventHandler(this.OnMouseLeave);
-            // 
             // panel25
             // 
             this.panel25.Dock = System.Windows.Forms.DockStyle.Right;
@@ -395,19 +382,6 @@
             this.panel24.Size = new System.Drawing.Size(47, 40);
             this.panel24.TabIndex = 2;
             // 
-            // settingsPictureBox
-            // 
-            this.settingsPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.settingsPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("settingsPictureBox.Image")));
-            this.settingsPictureBox.Location = new System.Drawing.Point(0, 0);
-            this.settingsPictureBox.Name = "settingsPictureBox";
-            this.settingsPictureBox.Size = new System.Drawing.Size(47, 40);
-            this.settingsPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.settingsPictureBox.TabIndex = 0;
-            this.settingsPictureBox.TabStop = false;
-            this.settingsPictureBox.MouseEnter += new System.EventHandler(this.OnMouseEnter);
-            this.settingsPictureBox.MouseLeave += new System.EventHandler(this.OnMouseLeave);
-            // 
             // panel23
             // 
             this.panel23.Controls.Add(this.pictureBox1);
@@ -417,21 +391,6 @@
             this.panel23.Size = new System.Drawing.Size(48, 40);
             this.panel23.TabIndex = 1;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(232)))), ((int)(((byte)(221)))));
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(48, 40);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.TeamTrackerAppClose);
-            this.pictureBox1.MouseEnter += new System.EventHandler(this.OnMouseEnter);
-            this.pictureBox1.MouseLeave += new System.EventHandler(this.OnMouseLeave);
-            // 
             // panel22
             // 
             this.panel22.Controls.Add(this.menuPictureBox);
@@ -440,20 +399,6 @@
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(48, 40);
             this.panel22.TabIndex = 0;
-            // 
-            // menuPictureBox
-            // 
-            this.menuPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.menuPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("menuPictureBox.Image")));
-            this.menuPictureBox.Location = new System.Drawing.Point(0, 0);
-            this.menuPictureBox.Name = "menuPictureBox";
-            this.menuPictureBox.Size = new System.Drawing.Size(48, 40);
-            this.menuPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.menuPictureBox.TabIndex = 0;
-            this.menuPictureBox.TabStop = false;
-            this.menuPictureBox.Click += new System.EventHandler(this.OnMenuClicked);
-            this.menuPictureBox.MouseEnter += new System.EventHandler(this.OnMouseEnter);
-            this.menuPictureBox.MouseLeave += new System.EventHandler(this.OnMouseLeave);
             // 
             // mainContentPanel
             // 
@@ -492,21 +437,12 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             // 
-            // colloboratePage1
-            // 
-            this.colloboratePage1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.colloboratePage1.Location = new System.Drawing.Point(0, 0);
-            this.colloboratePage1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
-            this.colloboratePage1.Name = "colloboratePage1";
-            this.colloboratePage1.Size = new System.Drawing.Size(1060, 606);
-            this.colloboratePage1.TabIndex = 0;
-            // 
             // tabPage2
             // 
             this.tabPage2.Location = new System.Drawing.Point(4, 5);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage2.Size = new System.Drawing.Size(1066, 435);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1060, 606);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -515,6 +451,70 @@
             // 
             this.SubMenuPanelTimer.Interval = 1;
             this.SubMenuPanelTimer.Tick += new System.EventHandler(this.OnSubMenuPanelMovement);
+            // 
+            // notificationPictureBox
+            // 
+            this.notificationPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.notificationPictureBox.Location = new System.Drawing.Point(0, 0);
+            this.notificationPictureBox.Name = "notificationPictureBox";
+            this.notificationPictureBox.Size = new System.Drawing.Size(48, 40);
+            this.notificationPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.notificationPictureBox.TabIndex = 0;
+            this.notificationPictureBox.TabStop = false;
+            this.notificationPictureBox.Click += new System.EventHandler(this.OnNotificationClick);
+            this.notificationPictureBox.MouseEnter += new System.EventHandler(this.OnMouseEnter);
+            this.notificationPictureBox.MouseLeave += new System.EventHandler(this.OnMouseLeave);
+            // 
+            // settingsPictureBox
+            // 
+            this.settingsPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.settingsPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("settingsPictureBox.Image")));
+            this.settingsPictureBox.Location = new System.Drawing.Point(0, 0);
+            this.settingsPictureBox.Name = "settingsPictureBox";
+            this.settingsPictureBox.Size = new System.Drawing.Size(47, 40);
+            this.settingsPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.settingsPictureBox.TabIndex = 0;
+            this.settingsPictureBox.TabStop = false;
+            this.settingsPictureBox.MouseEnter += new System.EventHandler(this.OnMouseEnter);
+            this.settingsPictureBox.MouseLeave += new System.EventHandler(this.OnMouseLeave);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(232)))), ((int)(((byte)(221)))));
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(48, 40);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.TeamTrackerAppClose);
+            this.pictureBox1.MouseEnter += new System.EventHandler(this.OnMouseEnter);
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.OnMouseLeave);
+            // 
+            // menuPictureBox
+            // 
+            this.menuPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.menuPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("menuPictureBox.Image")));
+            this.menuPictureBox.Location = new System.Drawing.Point(0, 0);
+            this.menuPictureBox.Name = "menuPictureBox";
+            this.menuPictureBox.Size = new System.Drawing.Size(48, 40);
+            this.menuPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.menuPictureBox.TabIndex = 0;
+            this.menuPictureBox.TabStop = false;
+            this.menuPictureBox.Click += new System.EventHandler(this.OnMenuClicked);
+            this.menuPictureBox.MouseEnter += new System.EventHandler(this.OnMouseEnter);
+            this.menuPictureBox.MouseLeave += new System.EventHandler(this.OnMouseLeave);
+            // 
+            // colloboratePage1
+            // 
+            this.colloboratePage1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.colloboratePage1.Location = new System.Drawing.Point(0, 0);
+            this.colloboratePage1.Margin = new System.Windows.Forms.Padding(1);
+            this.colloboratePage1.Name = "colloboratePage1";
+            this.colloboratePage1.Size = new System.Drawing.Size(1060, 606);
+            this.colloboratePage1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -534,16 +534,16 @@
             this.SubMenuTabelPanel.ResumeLayout(false);
             this.HeaderPanel.ResumeLayout(false);
             this.panel26.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.notificationPictureBox)).EndInit();
             this.panel24.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.settingsPictureBox)).EndInit();
             this.panel23.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel22.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.menuPictureBox)).EndInit();
             this.mainContentPanel.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.notificationPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.menuPictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }

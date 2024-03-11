@@ -92,11 +92,20 @@
     <Compile Include="TabPages\Colloborate\Colloborate Control\ProfileTemplate.Designer.cs">
       <DependentUpon>ProfileTemplate.cs</DependentUpon>
     </Compile>
+    <Compile Include="TabPages\Colloborate\Colloborate Control\UCProfileViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabPages\Colloborate\Colloborate Control\UCProfileViewer.Designer.cs">
+      <DependentUpon>UCProfileViewer.cs</DependentUpon>
+    </Compile>
     <Compile Include="TabPages\Colloborate\ColloboratePage.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="TabPages\Colloborate\ColloboratePage.Designer.cs">
       <DependentUpon>ColloboratePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabPages\Colloborate\Colloborate Control\toggleButton.cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Welcome Page\LoginPage.cs">
       <SubType>UserControl</SubType>
@@ -138,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TabPages\Colloborate\Colloborate Control\ProfileTemplate.resx">
       <DependentUpon>ProfileTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPages\Colloborate\Colloborate Control\UCProfileViewer.resx">
+      <DependentUpon>UCProfileViewer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TabPages\Colloborate\ColloboratePage.resx">
       <DependentUpon>ColloboratePage.cs</DependentUpon>
