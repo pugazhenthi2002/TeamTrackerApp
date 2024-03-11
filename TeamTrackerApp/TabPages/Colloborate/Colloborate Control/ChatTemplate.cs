@@ -15,6 +15,7 @@ namespace TeamTrackerApp.TabPages.Colloborate.Colloborate_Control
         public ChatTemplate()
         {
             InitializeComponent();
+            DoubleBuffered = true;
         }
     }
 }
