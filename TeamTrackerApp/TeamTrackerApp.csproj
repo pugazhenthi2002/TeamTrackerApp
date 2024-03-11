@@ -56,6 +56,48 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="TabPages\Colloborate\Colloborate Control\ChatMoreDropDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TabPages\Colloborate\Colloborate Control\ChatMoreDropDown.Designer.cs">
+      <DependentUpon>ChatMoreDropDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabPages\Colloborate\Colloborate Control\ChatProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabPages\Colloborate\Colloborate Control\ChatProfile.Designer.cs">
+      <DependentUpon>ChatProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabPages\Colloborate\Colloborate Control\ChatTemplate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabPages\Colloborate\Colloborate Control\ChatTemplate.Designer.cs">
+      <DependentUpon>ChatTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabPages\Colloborate\Colloborate Control\ColloborateMessageBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabPages\Colloborate\Colloborate Control\ColloborateMessageBox.Designer.cs">
+      <DependentUpon>ColloborateMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabPages\Colloborate\Colloborate Control\ColloborateSearchBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabPages\Colloborate\Colloborate Control\ColloborateSearchBar.Designer.cs">
+      <DependentUpon>ColloborateSearchBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabPages\Colloborate\Colloborate Control\ProfileTemplate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabPages\Colloborate\Colloborate Control\ProfileTemplate.Designer.cs">
+      <DependentUpon>ProfileTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabPages\Colloborate\ColloboratePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabPages\Colloborate\ColloboratePage.Designer.cs">
+      <DependentUpon>ColloboratePage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Welcome Page\LoginPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -78,6 +120,27 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPages\Colloborate\Colloborate Control\ChatMoreDropDown.resx">
+      <DependentUpon>ChatMoreDropDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPages\Colloborate\Colloborate Control\ChatProfile.resx">
+      <DependentUpon>ChatProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPages\Colloborate\Colloborate Control\ChatTemplate.resx">
+      <DependentUpon>ChatTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPages\Colloborate\Colloborate Control\ColloborateMessageBox.resx">
+      <DependentUpon>ColloborateMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPages\Colloborate\Colloborate Control\ColloborateSearchBar.resx">
+      <DependentUpon>ColloborateSearchBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPages\Colloborate\Colloborate Control\ProfileTemplate.resx">
+      <DependentUpon>ProfileTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPages\Colloborate\ColloboratePage.resx">
+      <DependentUpon>ColloboratePage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Welcome Page\LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
@@ -114,8 +177,11 @@
   <ItemGroup>
     <Content Include="Image\icons8-male-user-50.png" />
     <Content Include="Image\Login Template.png" />
+    <None Include="Image\No Notification.png" />
     <Content Include="Image\Password.png" />
+    <None Include="Image\Received Notification.png" />
     <Content Include="Image\User.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -117,11 +117,51 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="No Notification" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\No Notification.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAAfxJREFUaEPtmctOwzAQRbuCJYgl/AkPCTa0q7Z2lH+GBfwLtF20XYQ70YyEQkL9
+        mMZW5CuNVCWeuXNS24qcWVFRUdE01SwWl0dr57u6vuNLZxN5HI1ZNHV9wZd01KxW13tr3w/WNntjvg7r
+        9SPfUhfVbj3IC57kzbfihKdyJRASMNoeq+qZh6gJtR/g9f3b62DMJ3q44SFh6oOQ0IZBzb8QEjEwtCaG
+        ICQAs9GYZjydNn0eEtRL0JqhxdZXsBuxMC4QErTZcJq7aOeAQbvoTkXbSFU9caqzKMcVgnrZLZe3nOon
+        GN0PzttOwGiLJ/bCqSeFnOE10Ym2dux69IKxducCg7HjQog0YTAmDYRIAwb30kKIYmBwLQ8IUQgMfucF
+        IQKMz7a58RlLtdlmHMHY+Sm7xKj/RFdoQAUmKYQIjUTBZAEhQkNBMFlBiNCYF0yWECQ05wfi+DozqtBY
+        2NTKCQYNxS32HGDQSBSERFIYNKACIZEEZhKvKDB0/idki8Vv9xz6Z869LcPIG4JTo3JVBYPoRnAvLQwK
+        qzWAMWlgUFDdGGPHhUGhsxkiZxyYyRzQZXlkWlWvnOau7A6xjXkLOsQmtZ8VUGCgsN6OAmGa/Xc68xH8
+        WUHUB6MNIRqAiYcQTeLTm4jmJ95O58FH+x4iD1rY5MmXioqKiial2ewHSviFqVItfRcAAAAASUVORK5C
+        YII=
+</value>
   </data>
-  <data name="Received Notification" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\Received Notification.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="deletePictureBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAAYdJREFUaEPt2T0uhFEUh/FJ6Agr8FEqsAGEnk40rIAVsAEfoUUUoqHR0hAaCjWx
+        AFZAtCQ8J/E2N6cgc/4HcZ/kl0wmcs99MyROplWr1X60QZzjDAP2xl9tD++fdu2N39YQ5r7gBs2D2Gvv
+        Z0p2dkpTeENzwWh29iTC68YGjj/dw7tAJJvRzFtHF9puC96wTJtoOzvEOzxTyIPYx7qG5qPOZrNDfrVq
+        NXHP8P4QlWxmeHfwhindIrxTeMOUThDeDrxhStsIbwXeMKVlhLcAb5jSPMKbgDdMaRzh9cMbptSH8Drw
+        Cm+ggs3qhKRHeEMVHiDrGt5QhSvIOoI3VOEQsmw38IYqrELWEryhCouQNQNvqMI0ZI3AG6owDFk98IYq
+        2CxpGQvWE+RlLFiShaosY8GSLFRlGQuWZKEqy1iwJAtVWcaCJVmoymzZ8YZHGoO8jAVLslCV2bLzAu8C
+        Eexs2UJVdgDvEhH2kVYvLuFdpB0XkP9r4jWKWXhfan6HnWFn1Wq12r+o1foA5l6IO8EynPwAAAAASUVO
+        RK5CYII=
+</value>
   </data>
+  <data name="mutePictureBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAAhFJREFUaEPtmc1KHEEUhSdKIu5FJS+Vjc+RRSDP4MKVCj6CEmLMj4s8QiKIPyGg
+        iegmqywSd9kl8ZyBC+XlTM3UHRqrhv7gQ7uPcOvQXTM946Cnpy0ewRfwB7yFO3ARNsUT+Bb+d67DZmCJ
+        d9CXoFewCVjiA1Ql6F9YPSzxHqoCqVUzaQlaLSUlaJWUlqDVMW5jj7IqoiVoNUxTglYBSxxCtcBJfXAW
+        4EeoFldip/Bhbgv+hn7wGiQb0GcRO2UbqqF0GZIbqPJSO+UXVEMpH8fJP6jyUjtFDTQNlUX0nMAvcHV4
+        pGF2DD8NjzKogaahsoiec8jzF1CV4Tlm/BuWtjtEkg7yGiqL6OEe/AqZfYNPobECLbuEaSZJB3kNlUVU
+        qDLFJUg6yGuoLOIo0luIP9Pfc/vnHukgr6GyiDnSK0MnvhJGOshrqCxijvR2on7PjCUd5DVUFnEUM3Fr
+        qY2dezUbSTrIa6gsoif36lRcJh3kNVQW0VPyhnjGEznSQV5DZRE9R/AU5vYBM5b4PDzKMDMPjfwsoobS
+        JUiuocpL7RR+sNqE6so8g4RfQPss4oMT+Q5LWQWPofp3QYnVMG2ZqmCZA6gWOs7qiJapkkiZamGZN1At
+        Wlk183APqoV7q4dldqFafGoT8Dbbh6oA/QObgWVeQ1WEj+xNwTKvoC/yHDbHHHwJv8OfkA+d3Ec9PW0x
+        GNwBc9UHuaaQ2WIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <metadata name="formLoadTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
