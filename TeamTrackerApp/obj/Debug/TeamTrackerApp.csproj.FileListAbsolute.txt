@@ -56,3 +56,10 @@ C:\Users\Illamugundhan\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\Team
 C:\Users\Illamugundhan\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.exe
 C:\Users\Illamugundhan\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.pdb
 C:\Users\Illamugundhan\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.csprojAssemblyReference.cache
+C:\Users\Illamugundhan\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.TabPages.ProfilePage.UCProfilePage.resources
+C:\Users\Illamugundhan\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.TabPages.ProfilePage.MyProfilePage.resources
+C:\Users\Illamugundhan\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.TabPages.ProfilePage.UCLanguageRegion.resources
+C:\Users\Illamugundhan\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.TabPages.ProfilePage.UCPasswordPage.resources
+C:\Users\Illamugundhan\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.TabPages.ProfilePage.UCPersonalInfoPage.resources
+C:\Users\Illamugundhan\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.TabPages.ProfilePage.UCUserProfileDp.resources
+C:\Users\Illamugundhan\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.TabPages.ProfilePage.UCWorkingStatus.resources

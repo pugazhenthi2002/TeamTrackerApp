@@ -18,6 +18,8 @@ namespace TeamTrackerApp
             InitializeComponent();
             //typeof(Panel).InvokeMember("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.SetProperty, null, panel21, new object[] { true });
             typeof(Panel).InvokeMember("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.SetProperty, null, HeaderPanel, new object[] { true });
+
+            
         }
 
         private void TeamTrackerFormLoad(object sender, EventArgs e)
