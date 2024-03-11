@@ -69,6 +69,7 @@
             this.colloboratePage1 = new TeamTrackerApp.TabPages.Colloborate.ColloboratePage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.SubMenuPanelTimer = new System.Windows.Forms.Timer(this.components);
+            this.cards1 = new TeamTrackerApp.Cards();
             this.tableLayoutPanel1.SuspendLayout();
             this.SubMenuTabelPanel.SuspendLayout();
             this.HeaderPanel.SuspendLayout();
@@ -484,6 +485,7 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(232)))), ((int)(((byte)(221)))));
+            this.tabPage1.Controls.Add(this.cards1);
             this.tabPage1.Controls.Add(this.colloboratePage1);
             this.tabPage1.Location = new System.Drawing.Point(4, 5);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(0);
@@ -496,7 +498,7 @@
             // 
             this.colloboratePage1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.colloboratePage1.Location = new System.Drawing.Point(0, 0);
-            this.colloboratePage1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.colloboratePage1.Margin = new System.Windows.Forms.Padding(1);
             this.colloboratePage1.Name = "colloboratePage1";
             this.colloboratePage1.Size = new System.Drawing.Size(1060, 606);
             this.colloboratePage1.TabIndex = 0;
@@ -505,8 +507,8 @@
             // 
             this.tabPage2.Location = new System.Drawing.Point(4, 5);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage2.Size = new System.Drawing.Size(1066, 435);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1060, 606);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -515,6 +517,17 @@
             // 
             this.SubMenuPanelTimer.Interval = 1;
             this.SubMenuPanelTimer.Tick += new System.EventHandler(this.OnSubMenuPanelMovement);
+            // 
+            // cards1
+            // 
+            this.cards1.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.cards1.Location = new System.Drawing.Point(471, 97);
+            this.cards1.MaximumSize = new System.Drawing.Size(270, 406);
+            this.cards1.MinimumSize = new System.Drawing.Size(270, 406);
+            this.cards1.Name = "cards1";
+            this.cards1.Padding = new System.Windows.Forms.Padding(8);
+            this.cards1.Size = new System.Drawing.Size(270, 406);
+            this.cards1.TabIndex = 1;
             // 
             // Form1
             // 
@@ -589,6 +602,7 @@
         private System.Windows.Forms.Timer SubMenuPanelTimer;
         private System.Windows.Forms.Panel panel21;
         private TabPages.Colloborate.ColloboratePage colloboratePage1;
+        private Cards cards1;
     }
 }
 

@@ -47,7 +47,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cards.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Cards.designer.cs">
+      <DependentUpon>Cards.cs</DependentUpon>
+    </Compile>
     <Compile Include="Custom Controls\RippleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DateAndTime.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Form1.cs">
@@ -55,6 +64,18 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="optionBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="optionBox.designer.cs">
+      <DependentUpon>optionBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="optionControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="optionControl.designer.cs">
+      <DependentUpon>optionControl.cs</DependentUpon>
     </Compile>
     <Compile Include="TabPages\Colloborate\Colloborate Control\ChatMoreDropDown.cs">
       <SubType>Form</SubType>
@@ -118,8 +139,17 @@
     <Compile Include="Welcome Page\WelcomePage.Designer.cs">
       <DependentUpon>WelcomePage.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Cards.resx">
+      <DependentUpon>Cards.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="optionBox.resx">
+      <DependentUpon>optionBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="optionControl.resx">
+      <DependentUpon>optionControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TabPages\Colloborate\Colloborate Control\ChatMoreDropDown.resx">
       <DependentUpon>ChatMoreDropDown.cs</DependentUpon>
@@ -177,6 +207,8 @@
   <ItemGroup>
     <Content Include="Image\icons8-male-user-50.png" />
     <Content Include="Image\Login Template.png" />
+    <None Include="Resources\calendarWhite.png" />
+    <None Include="Resources\calendarDark.png" />
     <None Include="Image\No Notification.png" />
     <Content Include="Image\Password.png" />
     <None Include="Image\Received Notification.png" />
