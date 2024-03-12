@@ -50,11 +50,20 @@
     <Compile Include="Custom Controls\RippleButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Draft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Draft.Designer.cs">
+      <DependentUpon>Draft.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlaceHolderTextBox.cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="TabPages\Colloborate\Colloborate Control\ChatMoreDropDown.cs">
       <SubType>Form</SubType>
@@ -98,6 +107,30 @@
     <Compile Include="TabPages\Colloborate\ColloboratePage.Designer.cs">
       <DependentUpon>ColloboratePage.cs</DependentUpon>
     </Compile>
+    <Compile Include="TabPages\Task\ProjectView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabPages\Task\ProjectView.Designer.cs">
+      <DependentUpon>ProjectView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabPages\Task\Task Controls\AnimatedLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabPages\Task\Task Controls\Project.cs" />
+    <Compile Include="TabPages\Task\Task Controls\StatusDropDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TabPages\Task\Task Controls\StatusDropDown.Designer.cs">
+      <DependentUpon>StatusDropDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabPages\Task\Task Controls\TaskList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabPages\Task\Task Controls\TaskList.Designer.cs">
+      <DependentUpon>TaskList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabPages\Task\Task.cs" />
+    <Compile Include="TabPages\Task\TaskManager.cs" />
     <Compile Include="Welcome Page\LoginPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -118,6 +151,9 @@
     <Compile Include="Welcome Page\WelcomePage.Designer.cs">
       <DependentUpon>WelcomePage.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Draft.resx">
+      <DependentUpon>Draft.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -141,6 +177,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TabPages\Colloborate\ColloboratePage.resx">
       <DependentUpon>ColloboratePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPages\Task\ProjectView.resx">
+      <DependentUpon>ProjectView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPages\Task\Task Controls\StatusDropDown.resx">
+      <DependentUpon>StatusDropDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPages\Task\Task Controls\TaskList.resx">
+      <DependentUpon>TaskList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Welcome Page\LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>

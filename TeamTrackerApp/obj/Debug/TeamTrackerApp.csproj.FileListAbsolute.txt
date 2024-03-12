@@ -35,3 +35,8 @@ C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamT
 C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.TabPages.Colloborate.Colloborate_Control.ColloborateSearchBar.resources
 C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.TabPages.Colloborate.ColloboratePage.resources
 C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.TabPages.Colloborate.Colloborate_Control.ProfileTemplate.resources
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.Draft.resources
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.TabPages.Task.Task_Controls.TaskList.resources
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.TabPages.Task.Task_Controls.StatusDropDown.resources
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.TabPages.Task.ProjectView.resources
+C:\Users\Pugaizhenthi\source\repos\TeamTrackerApp\TeamTrackerApp\obj\Debug\TeamTrackerApp.csprojAssemblyReference.cache
