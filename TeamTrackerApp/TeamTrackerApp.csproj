@@ -107,6 +107,12 @@
     <Compile Include="TabPages\Colloborate\Colloborate Control\toggleButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="TabPages\IssuePage\UCAddIssue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabPages\IssuePage\UCAddIssue.Designer.cs">
+      <DependentUpon>UCAddIssue.cs</DependentUpon>
+    </Compile>
     <Compile Include="TabPages\ProfilePage\MyProfilePage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -198,6 +204,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TabPages\Colloborate\ColloboratePage.resx">
       <DependentUpon>ColloboratePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPages\IssuePage\UCAddIssue.resx">
+      <DependentUpon>UCAddIssue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TabPages\ProfilePage\MyProfilePage.resx">
       <DependentUpon>MyProfilePage.cs</DependentUpon>
