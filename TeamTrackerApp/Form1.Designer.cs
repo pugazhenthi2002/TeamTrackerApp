@@ -66,10 +66,11 @@
             this.mainContentPanel = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.colloboratePage1 = new TeamTrackerApp.TabPages.Colloborate.ColloboratePage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.SubMenuPanelTimer = new System.Windows.Forms.Timer(this.components);
-            this.ucAddIssue1 = new TeamTrackerApp.TabPages.IssuePage.UCAddIssue();
+
+            this.projectView1 = new TeamTrackerApp.TabPages.Task.ProjectView();
+
             this.tableLayoutPanel1.SuspendLayout();
             this.SubMenuTabelPanel.SuspendLayout();
             this.HeaderPanel.SuspendLayout();
@@ -485,8 +486,9 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(232)))), ((int)(((byte)(221)))));
-            this.tabPage1.Controls.Add(this.ucAddIssue1);
-            this.tabPage1.Controls.Add(this.colloboratePage1);
+
+            this.tabPage1.Controls.Add(this.projectView1);
+
             this.tabPage1.Location = new System.Drawing.Point(4, 5);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage1.Name = "tabPage1";
@@ -494,15 +496,7 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             // 
-            // colloboratePage1
-            // 
-            this.colloboratePage1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.colloboratePage1.Location = new System.Drawing.Point(0, 0);
-            this.colloboratePage1.Margin = new System.Windows.Forms.Padding(1);
-            this.colloboratePage1.Name = "colloboratePage1";
-            this.colloboratePage1.Size = new System.Drawing.Size(1060, 606);
-            this.colloboratePage1.TabIndex = 0;
-            // 
+
             // tabPage2
             // 
             this.tabPage2.Location = new System.Drawing.Point(4, 5);
@@ -518,12 +512,15 @@
             this.SubMenuPanelTimer.Interval = 1;
             this.SubMenuPanelTimer.Tick += new System.EventHandler(this.OnSubMenuPanelMovement);
             // 
-            // ucAddIssue1
+
+            // projectView1
             // 
-            this.ucAddIssue1.Location = new System.Drawing.Point(400, 33);
-            this.ucAddIssue1.Name = "ucAddIssue1";
-            this.ucAddIssue1.Size = new System.Drawing.Size(300, 390);
-            this.ucAddIssue1.TabIndex = 1;
+            this.projectView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.projectView1.Location = new System.Drawing.Point(0, 0);
+            this.projectView1.Name = "projectView1";
+            this.projectView1.Size = new System.Drawing.Size(1060, 606);
+            this.projectView1.TabIndex = 0;
+
             // 
             // Form1
             // 
@@ -597,8 +594,11 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Timer SubMenuPanelTimer;
         private System.Windows.Forms.Panel panel21;
-        private TabPages.Colloborate.ColloboratePage colloboratePage1;
-        private TabPages.IssuePage.UCAddIssue ucAddIssue1;
+
+
+
+        private TabPages.Task.ProjectView projectView1;
+
     }
 }
 

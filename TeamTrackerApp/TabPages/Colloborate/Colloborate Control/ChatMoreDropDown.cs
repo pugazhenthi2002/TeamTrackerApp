@@ -18,6 +18,7 @@ namespace TeamTrackerApp.TabPages.Colloborate.Colloborate_Control
         }
 
         public event EventHandler<string> ChatMoreChanged;
+
         private void OnMoreOptionClicked(object sender, EventArgs e)
         {
             if((sender as PictureBox).Name == "mutePictureBox" || (sender as Label).Text == "Mute")
