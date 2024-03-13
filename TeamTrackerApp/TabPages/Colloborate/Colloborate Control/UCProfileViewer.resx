@@ -117,20 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icons8_bell_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-bell-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ClosePictureBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAMdJREFUSEvtltEKwjAMRfsTyvz/z9EnfdjnaC40MMKa3qyRIu7AhaENp8mqWzn5
+        W66SRw2uo2j9vV5TXCRPybtmldwkLIfrsVMt0rwkzM6xBmttPTrvsidGevKWFKHEdlTbtMbWq1kkFBF5
+        mlRh5OlSxbtv+Nz7jjmMLl5Xexnq1MLKU6VKT/4VKWDEkX84isio0+RHDtewfMrPyetUD1JvTbhzRqqk
+        ySNSJUU+7bE47UXAjq013hZD9dg5dokwnVpG609+nlI+RnPvY/SuGfcAAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="icons8_close_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-close-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAK9JREFUSEvlkksKwkAQROc4Weg94on8rLL0XIqHiEtdCF7CVC2EYii0FGdjHjzS
+        NF0dJpkyGwb4qNzDrzjBelnqEb6FQy6ceIAzwR0/McaFE2NcODFGQyPcwrv0WK/hWXo0RkMbNsACcjFl
+        TXZQZ2M0pAv51FpPRWM0RLloCZ908AbruZg62PQFzT9R85/Mq+iuKXs/uaafGOPCiTFX6Ba88gJjVpAB
+        t8jJ2R7+HaVM63/T/SjWdJUAAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="icons8_remove_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-remove-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="No Notification" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\No Notification.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Received Notification" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\Received Notification.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAKVJREFUSEvl1DEKwkAUhOHtPIQ5kB7G4BEsPZpgo7VW8Qyx1Rnwgcjw2FkjCPnh
+        A4k4m6SwzKodPF74efJ+dsACerhCHHCBDfC7r+rgDDH86QRLaIp3l40HHtL0JFtQgwpfod0R1JhyALs7
+        qDFlBDs1lLFTIxk7NZKxUyMZOzWSsVMjGav3P7Zae6iqZTxUHaJ+6PjfbhB3OfDC1K2Bw7TihTlUyhOE
+        /bgI2QzYeQAAAABJRU5ErkJggg==
+</value>
   </data>
 </root>

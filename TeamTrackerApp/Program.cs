@@ -16,6 +16,7 @@ namespace TeamTrackerApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new TabPages.ProfilePage.MyProfilePage());
             Application.Run(new Form1());
         }
     }

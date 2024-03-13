@@ -68,7 +68,9 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.SubMenuPanelTimer = new System.Windows.Forms.Timer(this.components);
+
             this.projectView1 = new TeamTrackerApp.TabPages.Task.ProjectView();
+
             this.tableLayoutPanel1.SuspendLayout();
             this.SubMenuTabelPanel.SuspendLayout();
             this.HeaderPanel.SuspendLayout();
@@ -484,7 +486,9 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(232)))), ((int)(((byte)(221)))));
+
             this.tabPage1.Controls.Add(this.projectView1);
+
             this.tabPage1.Location = new System.Drawing.Point(4, 5);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage1.Name = "tabPage1";
@@ -492,6 +496,7 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             // 
+
             // tabPage2
             // 
             this.tabPage2.Location = new System.Drawing.Point(4, 5);
@@ -507,6 +512,7 @@
             this.SubMenuPanelTimer.Interval = 1;
             this.SubMenuPanelTimer.Tick += new System.EventHandler(this.OnSubMenuPanelMovement);
             // 
+
             // projectView1
             // 
             this.projectView1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -514,6 +520,7 @@
             this.projectView1.Name = "projectView1";
             this.projectView1.Size = new System.Drawing.Size(1060, 606);
             this.projectView1.TabIndex = 0;
+
             // 
             // Form1
             // 
@@ -587,7 +594,11 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Timer SubMenuPanelTimer;
         private System.Windows.Forms.Panel panel21;
+
+
+
         private TabPages.Task.ProjectView projectView1;
+
     }
 }
 
